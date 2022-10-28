@@ -20,6 +20,7 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        //Test
         binding.btnGet.setOnClickListener {
             getResult("London")
         }
